@@ -21,6 +21,7 @@ def page():
     
     with tab1:
         st.markdown('''This tab will contain news on the events as they happen''')
+        
     with tab2:
         st.markdown(
                     """
@@ -45,33 +46,33 @@ def page():
         )   
         with st.expander(f"![Logo](data:image/png;base64,{fallguys_img_base64})"):
             role = ["IGL","","",""]
-            brently = ["Brently","TBD","TBD","TBD"]
+            Brentuar = ["Brentuar","TBD","TBD","TBD"]
             pk = ["PK","TBD","TBD","TBD"]
             data = {
                 "Role": role,
-                "Team Brently": brently,
+                "Team Brentuar": Brentuar,
                 "Team PK": pk
             }
             df = pd.DataFrame(data)
             st.dataframe(df, hide_index=True)
         with st.expander(f"![Logo](data:image/png;base64,{f1_img_base64})"):
             role = ["IGL","","",""]
-            brently = ["Brently","Newman","TBD","TBD"]
+            Brentuar = ["Brentuar","Newman","TBD","TBD"]
             pk = ["PK","Josh Anderson","Josh Crane","Josh Rosario"]
             data = {
                 "Role": role,
-                "Team Brently": brently,
+                "Team Brentuar": Brentuar,
                 "Team PK": pk
             }
             df = pd.DataFrame(data)
             st.dataframe(df, hide_index=True)
         with st.expander(f"![Logo](data:image/png;base64,{halo_img_base64})"):
             role = ["IGL","","",""]
-            brently = ["Brently","TBD","TBD","TBD"]
+            Brentuar = ["Brentuar","TBD","TBD","TBD"]
             pk = ["Connor Boyd","PK","TBD","TBD"]
             data = {
                 "Role": role,
-                "Team Brently": brently,
+                "Team Brentuar": Brentuar,
                 "Team PK": pk
             }
             df = pd.DataFrame(data)
@@ -86,6 +87,7 @@ def page():
         }
         df = pd.DataFrame(data)
         st.dataframe(df, hide_index=True)
+
     with tab4:
         st.markdown('''coming soon''')
 
