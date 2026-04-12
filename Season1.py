@@ -47,7 +47,7 @@ def page():
         with st.expander(f"![Logo](data:image/png;base64,{fallguys_img_base64})"):
             role = ["IGL","","",""]
             Brentuar = ["Brentuar","Prezilla","Aldo","TBD"]
-            pk = ["PK","TBD","TBD","TBD"]
+            pk = ["PK","Joshua Rosario","Eddie Tavera Jr.","TBD"]
             data = {
                 "Role": role,
                 "Team Brentuar": Brentuar,
@@ -69,7 +69,7 @@ def page():
         with st.expander(f"![Logo](data:image/png;base64,{halo_img_base64})"):
             role = ["IGL","","",""]
             Brentuar = ["Brentuar","Grayson Simmons","TBD","TBD"]
-            pk = ["Connor Boyd","PK","Josh Anderson","TBD"]
+            pk = ["Connor Boyd","PK","Josh Anderson","Joshua Rosario"]
             data = {
                 "Role": role,
                 "Team Brentuar": Brentuar,
