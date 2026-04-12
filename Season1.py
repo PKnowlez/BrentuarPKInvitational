@@ -46,8 +46,8 @@ def page():
         )   
         with st.expander(f"![Logo](data:image/png;base64,{fallguys_img_base64})"):
             role = ["IGL","","",""]
-            Brentuar = ["Brentuar","Prezilla","Aldo","TBD"]
-            pk = ["PK","Joshua Rosario","Eddie Tavera Jr.","TBD"]
+            Brentuar = ["Brentuar","Prezilla","Aldo","Newman"]
+            pk = ["PK","Joshua Rosario","Eddie Tavera Jr.","Josh Anderson"]
             data = {
                 "Role": role,
                 "Team Brentuar": Brentuar,
@@ -57,7 +57,7 @@ def page():
             st.dataframe(df, hide_index=True)
         with st.expander(f"![Logo](data:image/png;base64,{f1_img_base64})"):
             role = ["IGL","","",""]
-            Brentuar = ["Brentuar","Newman","Nick Beglin","TBD"]
+            Brentuar = ["Brentuar","Newman","Nick Beglin","Erick Tavera"]
             pk = ["PK","Josh Anderson","Josh Crane","Josh Rosario"]
             data = {
                 "Role": role,
@@ -68,8 +68,8 @@ def page():
             st.dataframe(df, hide_index=True)
         with st.expander(f"![Logo](data:image/png;base64,{halo_img_base64})"):
             role = ["IGL","","",""]
-            Brentuar = ["Brentuar","Grayson Simmons","TBD","TBD"]
-            pk = ["Connor Boyd","PK","Josh Anderson","Joshua Rosario"]
+            Brentuar = ["Brentuar","Grayson Simmons","Erick Tavera","TBD"]
+            pk = ["Connor Boyd","PK","Josh Anderson","Eddie Tavera Jr."]
             data = {
                 "Role": role,
                 "Team Brentuar": Brentuar,
