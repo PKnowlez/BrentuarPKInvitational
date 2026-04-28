@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 import Background
-from Season1News import news
+from Articles import Article1
 
 logo_no_laurel = Image.open("./Images/logo-no-laurel.png")
 
@@ -9,6 +9,27 @@ def page():
     st.image(logo_no_laurel)
     st.divider()
 
-    news()
+    if 'show_all_content' not in st.session_state:
+            st.session_state.show_all_content = False
+
+            #region latest article
+            
+            Article1.article()
+
+            #endregion
+
+            # ----------------------------------------------------------------------------------------------------------
+            # "Show More/Less" button 
+            if not st.session_state.show_all_content:
+                if st.button('Show More'):
+                    st.session_state.show_all_content = True
+                    st.rerun()  # Rerun the app to show everything
+            else: 
+                if st.button('Show Less'):
+                    st.session_state.show_all_content = False
+                    st.rerun()
+
+            if st.session_state.show_all_content:
+                x=0
 
     Background.page()
