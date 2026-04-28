@@ -22,9 +22,9 @@ def page():
     tab1, tab2, tab3, tab4 = st.tabs(["News","The Teams","Schedule","Results"])
     
     with tab1:
-        Article1.article()
         news()
-        
+        Article1.article()
+         
     with tab2:
         st.markdown(
                     """
