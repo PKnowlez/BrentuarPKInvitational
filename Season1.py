@@ -4,6 +4,7 @@ import pandas as pd
 import base64
 from pathlib import Path
 import Season1News
+from Articles import Article1
 
 def get_image_as_base64(path):
     with open(path, "rb") as f:
@@ -21,7 +22,7 @@ def page():
     tab1, tab2, tab3, tab4 = st.tabs(["News","The Teams","Schedule","Results"])
     
     with tab1:
-        Season1News.news()
+        Article1.article()
         
     with tab2:
         st.markdown(
