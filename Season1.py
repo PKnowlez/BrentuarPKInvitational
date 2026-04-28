@@ -22,7 +22,7 @@ def page():
     tab1, tab2, tab3, tab4 = st.tabs(["News","The Teams","Schedule","Results"])
     
     with tab1:
-        st.divider()
+        Article1.article()
         news()
         
     with tab2:
