@@ -46,7 +46,7 @@ def page():
         )   
         with st.expander(f"![Logo](data:image/png;base64,{fallguys_img_base64})"):
             role = ["IGL","","",""]
-            Brentuar = ["Brentuar","Prezilla","Aldo","Newman"]
+            Brentuar = ["Brentuar","PretZilla","Queen","Newman"]
             pk = ["PK","Joshua Rosario","Eddie Tavera Jr.","Josh Anderson"]
             data = {
                 "Role": role,
@@ -79,8 +79,8 @@ def page():
             st.dataframe(df, hide_index=True)
 
     with tab3:
-        event = ["Fall Guys","F1 25","Halo Infinite"]
-        date = ["TBD","TBD","TBD"]
+        event = ["Fall Guys","Halo Infinite","F1 25"]
+        date = ["Wednesday April 29, 2026","Wednesday May 6, 2026","Wedesday May 13, 2026"]
         data = {
             "Event": event,
             "Date": date
