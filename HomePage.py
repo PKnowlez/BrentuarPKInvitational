@@ -30,6 +30,7 @@ def page():
                     st.rerun()
 
             if st.session_state.show_all_content:
-                x=0
+                 
+                Article1.article()
 
     Background.page()
