@@ -3,7 +3,7 @@ import Background
 import pandas as pd
 import base64
 from pathlib import Path
-import Season1News
+from Season1News import news
 from Articles import Article1
 
 def get_image_as_base64(path):
@@ -23,6 +23,7 @@ def page():
     
     with tab1:
         Article1.article()
+        news()
         
     with tab2:
         st.markdown(
