@@ -18,32 +18,34 @@ img_path = Path("./Images/fallguys-logo.png")
 fallguys_img_base64 = get_image_as_base64(img_path)
 
 def page():
-    tab1, tab2, tab3, tab4 = st.tabs(["News","The Teams","Schedule","Results"])
+    # tab1, tab2, tab3, tab4 = st.tabs(["News","The Teams","Schedule","Results"])
     
-    with tab1:
-        if 'show_all_content' not in st.session_state:
-            st.session_state.show_all_content = False
+    # with tab1:
+    #     if 'show_all_content' not in st.session_state:
+    #         st.session_state.show_all_content = False
 
-            #region latest article
+    #         #region latest article
             
-            Article1.article()
+    #         Article1.article()
 
-            #endregion
+    #         #endregion
 
-            # ----------------------------------------------------------------------------------------------------------
-            # "Show More/Less" button 
-            if not st.session_state.show_all_content:
-                if st.button('Show More'):
-                    st.session_state.show_all_content = True
-                    st.rerun()  # Rerun the app to show everything
-            else: 
-                if st.button('Show Less'):
-                    st.session_state.show_all_content = False
-                    st.rerun()
+    #         # ----------------------------------------------------------------------------------------------------------
+    #         # "Show More/Less" button 
+    #         if not st.session_state.show_all_content:
+    #             if st.button('Show More'):
+    #                 st.session_state.show_all_content = True
+    #                 st.rerun()  # Rerun the app to show everything
+    #         else: 
+    #             if st.button('Show Less'):
+    #                 st.session_state.show_all_content = False
+    #                 st.rerun()
 
-            if st.session_state.show_all_content:
+    #         if st.session_state.show_all_content:
                 
-                Article1.article()
+    #             Article1.article()
+
+    tab2, tab3, tab4 = st.tabs(["The Teams","Schedule","Results"])
          
     with tab2:
         st.markdown(
