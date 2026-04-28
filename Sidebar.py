@@ -2,8 +2,8 @@ import streamlit as st
 from PIL import Image
 
 logo = Image.open("./Images/logo.png")
-brentuar = Image.open("./Images/brentuar-logo.png")
-pk = Image.open("./Images/pk-logo.png")
+brentuar = Image.open("./Images/brentuar-logo-S.png")
+pk = Image.open("./Images/pk-logo-S.png")
 
 def Sidebar():
     with st.sidebar:
