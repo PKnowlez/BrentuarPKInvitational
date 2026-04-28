@@ -3,6 +3,7 @@ import Background
 import pandas as pd
 import base64
 from pathlib import Path
+from Season1News import news
 
 def get_image_as_base64(path):
     with open(path, "rb") as f:
@@ -20,7 +21,7 @@ def page():
     tab1, tab2, tab3, tab4 = st.tabs(["News","The Teams","Schedule","Results"])
     
     with tab1:
-        st.markdown('''This tab will contain news on the events as they happen''')
+        news()
         
     with tab2:
         st.markdown(
@@ -90,5 +91,9 @@ def page():
 
     with tab4:
         st.markdown('''coming soon''')
+        #TODO Individuals Bar Graph Per Game
+        #TODO Individuals Line Chart
+        #TODO Team Stacked Bar Chart (each game is a stack portion)
+        #TODO Team Line Chart
 
     Background.page()
