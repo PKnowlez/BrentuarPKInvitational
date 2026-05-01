@@ -98,10 +98,10 @@ def page():
             }
             df = pd.DataFrame(data)
             st.dataframe(df, hide_index=True)
-        with st.expander(f"![Logo](data:image/png;base64,{f1_img_base64})"):
+        with st.expander(f"![Logo](data:image/png;base64,{halo_img_base64})"):
             role = ["IGL","","",""]
-            Brentuar = ["Brentuar","Newman","Nick Beglin","Erick Tavera"]
-            pk = ["PK","Josh Anderson","Josh Crane","Josh Rosario"]
+            Brentuar = ["Brentuar","Grayson Simmons","Erick Tavera","Nick Beglin"]
+            pk = ["Connor Boyd","PK","Josh Anderson","Eddie Tavera Jr."]
             data = {
                 "Role": role,
                 "Team Brentuar": Brentuar,
@@ -109,10 +109,10 @@ def page():
             }
             df = pd.DataFrame(data)
             st.dataframe(df, hide_index=True)
-        with st.expander(f"![Logo](data:image/png;base64,{halo_img_base64})"):
+        with st.expander(f"![Logo](data:image/png;base64,{f1_img_base64})"):
             role = ["IGL","","",""]
-            Brentuar = ["Brentuar","Grayson Simmons","Erick Tavera","Nick Beglin"]
-            pk = ["Connor Boyd","PK","Josh Anderson","Eddie Tavera Jr."]
+            Brentuar = ["Brentuar","Newman","Nick Beglin","Erick Tavera"]
+            pk = ["PK","Josh Anderson","Josh Crane","Josh Rosario"]
             data = {
                 "Role": role,
                 "Team Brentuar": Brentuar,
@@ -173,10 +173,6 @@ def page():
             sheet = pd.read_excel('./Brentuar PK Invitational Season 1.xlsx',sheet_name='Fall Guys Results')
             st.dataframe(sheet, hide_index=True)
 
-        with st.expander(f"![Logo](data:image/png;base64,{f1_img_base64})"):
-            df_formula1 = process_sheet('Formula 1 Results')
-            st.dataframe(df_formula1, hide_index=True)
-
         with st.expander(f"![Logo](data:image/png;base64,{halo_img_base64})"):
 
             st.subheader('Overall')
@@ -198,5 +194,9 @@ def page():
             st.subheader('Capture The Flag')
             df_ctf = process_sheet('Halo Results CTF')
             st.dataframe(df_ctf, hide_index=True)
+
+        with st.expander(f"![Logo](data:image/png;base64,{f1_img_base64})"):
+            df_formula1 = process_sheet('Formula 1 Results')
+            st.dataframe(df_formula1, hide_index=True)
 
     Background.page()

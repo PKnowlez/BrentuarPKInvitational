@@ -59,6 +59,19 @@ def page():
         }
         df = pd.DataFrame(data)
         st.dataframe(df, hide_index=True)
+
+    with st.expander(f"![Logo](data:image/png;base64,{halo_img_base64})"):
+        st.subheader("Halo Infinite Regulations")
+        st.markdown("A single FFA Slayer and a single Team Slayer will be played as warmups. The following games will all be played in the order listed below and scoring will be awarded as described. A team will be capped at 80 points during this game event. There will be no cap on individual points for the overall individual scoring.")
+        st.markdown("Game Modes: Assault One Bomb, Land Grab, Oddball, Capture the Flag")
+        categories = ["Game Mode Win","Kill","Assist","Team Kill + Assist Maximum"]
+        halo_points = [10,0.1,0.025,40]
+        data = {
+            "Category": categories,
+            "Points": halo_points,
+        }
+        df = pd.DataFrame(data)
+        st.dataframe(df, hide_index=True)
     
     with st.expander(f"![Logo](data:image/png;base64,{f1_img_base64})"):
         st.subheader("Formula 1 2025 Regulations")
@@ -74,19 +87,6 @@ def page():
         df = pd.DataFrame(data)
         st.dataframe(df, hide_index=True)
         st.markdown("A singular bonus point will be awarded for each of the following: Pole Position, Sprint Fastest Lap, Race Fastest Lap, Race Driver of the Day, Race Cleanest Driver, Race Most Overtakes")
-    
-    with st.expander(f"![Logo](data:image/png;base64,{halo_img_base64})"):
-        st.subheader("Halo Infinite Regulations")
-        st.markdown("A single FFA Slayer and a single Team Slayer will be played as warmups. The following games will all be played in the order listed below and scoring will be awarded as described. A team will be capped at 80 points during this game event. There will be no cap on individual points for the overall individual scoring.")
-        st.markdown("Game Modes: Assault One Bomb, Land Grab, Oddball, Capture the Flag")
-        categories = ["Game Mode Win","Kill","Assist","Team Kill + Assist Maximum"]
-        halo_points = [10,0.1,0.025,40]
-        data = {
-            "Category": categories,
-            "Points": halo_points,
-        }
-        df = pd.DataFrame(data)
-        st.dataframe(df, hide_index=True)
 
     Background.page()
     
