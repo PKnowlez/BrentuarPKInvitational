@@ -24,7 +24,7 @@ def article():
     st.markdown('''
                 What a showing, or should I say disaster for the team captains. Good thing they drafted players who were better than them otherwise this would have been a complete and total disaster.
 
-                Both Brentuar and PK could hardly get off the start line in each event. However, both teams had some rising stars. Without Pretz and Eddie, I would have just turned Twitch off. Dude, how are you all making me praise Eddie. This is absolutely insane. That guy can't even drive around a circuit once without totalling his car, but somehow he ascends to MLG ranks when playing Fall Guys???? Are you serios???
+                Both Brentuar and PK could hardly get off the start line in each event. However, both teams had some rising stars. Without Pretz and Eddie, I would have just turned Twitch off. Dude, how are you all making me praise Eddie. This is absolutely insane. That guy can't even drive around a circuit once without totalling his car, but somehow he ascends to MLG ranks when playing Fall Guys???? Are you serious???
 
                 But that's enough glazing for him, especially since Oscar the Grouch has never even ripped off that much trash talking, straight up disrespectful.
 
