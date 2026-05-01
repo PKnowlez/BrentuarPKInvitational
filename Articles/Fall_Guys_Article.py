@@ -28,7 +28,7 @@ def article():
 
                 But that's enough glazing for him, especially since Oscar the Grouch has never even ripped off that much trash talking, straight up disrespectful.
 
-                Now Pretz on the other hand. What a GOAT. The only member of Team Brentuar that held on each and every round. Had Eddie sneezed or lost a little bit of focus, Pretz would be leading the tournament in points. unfortunately for the team in red, that isn't what happened.
+                Now Pretz on the other hand. What a GOAT. The only member of Team Brentuar that held on each and every round. Had Eddie sneezed or lost a little bit of focus, Pretz would be leading the tournament in points. Unfortunately for the team in red, that isn't what happened.
 
                 Alright, that's enough of a recap. It's time for some memes. And no, I do not apologize for any of these. Deal with it nerds.
                 ''')
