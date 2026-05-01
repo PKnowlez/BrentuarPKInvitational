@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 import Background
-from Articles import Article1
+from Articles import Article1, Fall_Guys_Article
 
 logo_no_laurel = Image.open("./Images/logo-no-laurel.png")
 
@@ -14,7 +14,7 @@ def page():
 
             #region latest article
             
-            Article1.article()
+            Fall_Guys_Article.article()
 
             #endregion
 
