@@ -62,10 +62,10 @@ def page():
 
     with st.expander(f"![Logo](data:image/png;base64,{halo_img_base64})"):
         st.subheader("Halo Infinite Regulations")
-        st.markdown("A single FFA Slayer and a single Team Slayer will be played as warmups. The following games will all be played in the order listed below and scoring will be awarded as described. A team will be capped at 80 points during this game event. There will be no cap on individual points for the overall individual scoring.")
-        st.markdown("Game Modes: Assault One Bomb, Land Grab, Oddball, Capture the Flag")
+        st.markdown("Two rounds of FFA Slayer and a single Team Slayer will be played as warmups. The following games will all be played in the order listed below and scoring will be awarded as described. A team will be capped at 80 points during this game event. There will be no cap on individual points for the overall individual scoring.")
+        st.markdown("Game Modes: Assault One Bomb, Oddball, Tactical Slayer, Capture the Flag")
         categories = ["Game Mode Win","Kill","Assist","Team Kill + Assist Maximum"]
-        halo_points = [10,0.1,0.025,40]
+        halo_points = [1,0.1,0.025,40]
         data = {
             "Category": categories,
             "Points": halo_points,

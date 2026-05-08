@@ -179,19 +179,19 @@ def page():
             df_overall = process_sheet('Halo Results')
             st.dataframe(df_overall, hide_index=True)
 
-            st.subheader('One Bomb')
+            st.subheader('One Bomb - High Ground')
             df_aob = process_sheet('Halo Results AOB')
             st.dataframe(df_aob, hide_index=True)
 
-            st.subheader('Land Grab')
-            df_lg = process_sheet('Halo Results LG')
-            st.dataframe(df_lg, hide_index=True)
-
-            st.subheader('Oddball')
+            st.subheader('Oddball - Streets')
             df_ob = process_sheet('Halo Results OB')
             st.dataframe(df_ob, hide_index=True)
 
-            st.subheader('Capture The Flag')
+            st.subheader('Tactical Slayer - Forest')
+            df_ob = process_sheet('Halo Results TS')
+            st.dataframe(df_ob, hide_index=True)
+
+            st.subheader('Capture The Flag - Isolation')
             df_ctf = process_sheet('Halo Results CTF')
             st.dataframe(df_ctf, hide_index=True)
 
