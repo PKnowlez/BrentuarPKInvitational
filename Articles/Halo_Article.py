@@ -51,7 +51,7 @@ def article():
 
                 Then the gang moved on to a game of Oddball after being unable to launch a game of Land Grab. This was actually extremely competitve and truly could have gone either way. Worth a re-watch.
 
-                Then Grayson talked a bunch of smoke and proceeded to get smoked in a round of Tactical Slayer. Bro could only PK and, well, that isn't really an achievement...
+                Then Grayson talked a bunch of smoke and proceeded to get smoked in a round of Tactical Slayer. Bro could only kill PK and, well, that isn't really an achievement...
 
                 Finally, the round of Capture the Flag was a bit of a blow out until Team Brentuar snagged one capture late in the round.
                 ''')
